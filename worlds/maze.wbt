@@ -1,0 +1,337 @@
+#VRML_SIM R2025a utf8
+
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/backgrounds/protos/TexturedBackground.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/backgrounds/protos/TexturedBackgroundLight.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/floors/protos/RectangleArena.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/robots/gctronic/e-puck/protos/E-puck.proto"
+
+WorldInfo {
+}
+Viewpoint {
+  orientation 0.006860444055146505 0.9999506730399156 -0.0071823251378789945 1.5245984105208108
+  position -0.20776028915499248 0.13373480059817713 2.7111030627455226
+}
+TexturedBackground {
+}
+TexturedBackgroundLight {
+}
+RectangleArena {
+  translation -0.01 -7.34679e-08 0
+  rotation 0 0 -1 3.1415853071795863
+  floorSize 3 3
+  wallThickness 0.1
+  wallHeight 0
+}
+E-puck {
+  translation 0.5 0.08 -6.37408e-05
+  rotation 0.0006740641240976259 -1.1201644370453612e-05 0.9999997727560141 3.1077625985186343
+  controller "my_controller12"
+  controllerArgs [
+    ""
+  ]
+}
+Solid {
+  translation -0.12999777180880728 0.7521255586247158 0.04948242322353525
+  rotation -0.01580564533545354 0.015819911677117444 0.9997499247162053 1.570100389808576
+  children [
+    DEF wall Shape {
+      appearance PBRAppearance {
+      }
+      geometry Box {
+        size 0.01 1.25 0.1
+      }
+    }
+  ]
+  boundingObject USE wall
+  physics Physics {
+  }
+}
+Solid {
+  translation -0.1285306762984667 -0.5076379311882137 0.049479462436927094
+  rotation 0.016284408622094088 -0.016300763414756357 0.9997345163331737 1.5703996940035432
+  children [
+    DEF wall Shape {
+      appearance PBRAppearance {
+      }
+      geometry Box {
+        size 0.01 1.25 0.1
+      }
+    }
+  ]
+  name "solid(3)"
+  boundingObject USE wall
+  physics Physics {
+  }
+}
+Solid {
+  translation -0.38050605968730294 -0.2500003321564434 0.04990386200000001
+  rotation -3.8118401702612453e-16 3.665025153747102e-16 1 1.5699343593818242
+  children [
+    DEF wall Shape {
+      appearance PBRAppearance {
+      }
+      geometry Box {
+        size 0.01 0.245 0.1
+      }
+    }
+  ]
+  name "solid(12)"
+  boundingObject USE wall
+  physics Physics {
+  }
+}
+Solid {
+  translation -0.3803541207430118 0.25260203252471014 0.04990386290277676
+  rotation -1.962895118437856e-05 1.9228293915976226e-05 0.9999999996224884 1.5910486945217124
+  children [
+    DEF wall Shape {
+      appearance PBRAppearance {
+      }
+      geometry Box {
+        size 0.01 0.245 0.1
+      }
+    }
+  ]
+  name "solid(13)"
+  boundingObject USE wall
+  physics Physics {
+  }
+}
+Solid {
+  translation -0.132 0.4999999999999997 0.04990386200000001
+  rotation -8.44379615747896e-17 9.44325054050443e-17 1 1.5699999999999998
+  children [
+    DEF wall Shape {
+      appearance PBRAppearance {
+      }
+      geometry Box {
+        size 0.01 0.245 0.1
+      }
+    }
+  ]
+  name "solid(15)"
+  boundingObject USE wall
+  physics Physics {
+  }
+}
+Solid {
+  translation 0.11398495588500906 0.24999988653248661 0.04990623364078311
+  rotation 2.2245449171421578e-06 -1.2327018597855309e-06 0.9999999999967659 1.570008478810061
+  children [
+    DEF wall Shape {
+      appearance PBRAppearance {
+      }
+      geometry Box {
+        size 0.01 0.239 0.1
+      }
+    }
+  ]
+  name "solid(16)"
+  boundingObject USE wall
+  physics Physics {
+  }
+}
+Solid {
+  translation 0.3649999998954034 -1.5424096983980226e-09 0.04990621640000008
+  rotation -2.815746656119842e-16 2.9159201861588635e-16 1 1.5700056134183782
+  children [
+    DEF wall Shape {
+      appearance PBRAppearance {
+      }
+      geometry Box {
+        size 0.01 0.239 0.1
+      }
+    }
+  ]
+  name "solid(17)"
+  boundingObject USE wall
+  physics Physics {
+  }
+}
+Solid {
+  translation -0.6350761668497575 0.0021377506670077926 0.04990550973177107
+  rotation -0.0008868392336223755 0.0009018821953572456 0.9999992000620196 1.5528739621742809
+  children [
+    DEF wall Shape {
+      appearance PBRAppearance {
+      }
+      geometry Box {
+        size 0.01 0.24 0.1
+      }
+    }
+  ]
+  name "solid(14)"
+  boundingObject USE wall
+  physics Physics {
+  }
+}
+Solid {
+  translation -0.7500000148434537 0.4940000000120391 0.0498038
+  rotation 2.67962493441172e-16 2.5645485017265594e-16 0.9999999999999999 1.5699966771270282
+  children [
+    DEF wall Shape {
+      appearance PBRAppearance {
+      }
+      geometry Box {
+        size 0.5 0.01 0.1
+      }
+    }
+  ]
+  name "solid(1)"
+  boundingObject USE wall
+  physics Physics {
+  }
+}
+Solid {
+  translation 0.239999999515234 0.49399999999687555 0.0498038
+  rotation -3.929598737373113e-17 -4.254741037915312e-17 1 1.5699966768801579
+  children [
+    DEF wall Shape {
+      appearance PBRAppearance {
+      }
+      geometry Box {
+        size 0.5 0.01 0.1
+      }
+    }
+  ]
+  name "solid(4)"
+  boundingObject USE wall
+  physics Physics {
+  }
+}
+Solid {
+  translation 0.24000000013173162 -0.12500000000055145 0.0499019
+  rotation -1.7154772161240986e-17 3.978422264155665e-17 1 1.5699966768801565
+  children [
+    DEF wall Shape {
+      appearance PBRAppearance {
+      }
+      geometry Box {
+        size 0.25 0.01 0.1
+      }
+    }
+  ]
+  name "solid(9)"
+  boundingObject USE wall
+  physics Physics {
+  }
+}
+Solid {
+  translation -0.25999866944881844 0.12493762807554999 0.04990189905869916
+  rotation 3.1802896356092295e-07 2.7484198268210725e-07 0.9999999999999116 1.570003946937584
+  children [
+    DEF wall Shape {
+      appearance PBRAppearance {
+      }
+      geometry Box {
+        size 0.25 0.01 0.1
+      }
+    }
+  ]
+  name "solid(10)"
+  boundingObject USE wall
+  physics Physics {
+  }
+}
+Solid {
+  translation -0.2599997064478552 0.6208003912327192 0.049903989715881406
+  rotation -1.098694997411957e-05 -2.7709883540137343e-05 0.9999999995557246 1.569995938684845
+  children [
+    DEF wall Shape {
+      appearance PBRAppearance {
+      }
+      geometry Box {
+        size 0.25 0.01 0.1
+      }
+    }
+  ]
+  name "solid(11)"
+  boundingObject USE wall
+  physics Physics {
+  }
+}
+Solid {
+  translation -0.010360408447990006 -4.470915658806641e-06 0.04980374672320473
+  rotation -0.0006001053813717146 -0.0006002751430340729 0.9999996397715771 1.5711964016639568
+  children [
+    DEF wall Shape {
+      appearance PBRAppearance {
+      }
+      geometry Box {
+        size 0.5 0.01 0.1
+      }
+    }
+  ]
+  name "solid(7)"
+  boundingObject USE wall
+  physics Physics {
+  }
+}
+Solid {
+  translation -0.5099547088688567 0.12000003471017796 0.04970575102786808
+  rotation 0.0004393420300887078 0.0004390417588165779 0.9999998071104388 1.5699814578686173
+  children [
+    DEF wall Shape {
+      appearance PBRAppearance {
+      }
+      geometry Box {
+        size 0.75 0.01 0.1
+      }
+    }
+  ]
+  name "solid(8)"
+  boundingObject USE wall
+  physics Physics {
+  }
+}
+Solid {
+  translation 0.48999999948940287 0.49399999999846445 0.04980380000000001
+  rotation 1.121183278706808e-16 9.752969825971943e-17 1 1.5699966788504909
+  children [
+    DEF wall Shape {
+      appearance PBRAppearance {
+      }
+      geometry Box {
+        size 0.5 0.01 0.1
+      }
+    }
+  ]
+  name "solid(5)"
+  boundingObject USE wall
+  physics Physics {
+  }
+}
+Solid {
+  translation -0.7500002207263632 -0.2508025706684035 0.04980746523564675
+  rotation -0.00019111510067847508 -0.00017826005983084746 0.9999999658491842 1.569998412741358
+  children [
+    DEF wall Shape {
+      appearance PBRAppearance {
+      }
+      geometry Box {
+        size 0.5 0.01 0.1
+      }
+    }
+  ]
+  name "solid(2)"
+  boundingObject USE wall
+  physics Physics {
+  }
+}
+Solid {
+  translation 0.4900065168915434 -0.24953208656045187 0.049803799999999995
+  rotation -1.3324395922946724e-16 -1.3242270411416797e-16 1 1.569996981355342
+  children [
+    DEF wall Shape {
+      appearance PBRAppearance {
+      }
+      geometry Box {
+        size 0.5 0.01 0.1
+      }
+    }
+  ]
+  name "solid(6)"
+  boundingObject USE wall
+  physics Physics {
+  }
+}
